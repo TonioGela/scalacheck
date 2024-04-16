@@ -16,7 +16,7 @@ ThisBuild / developers := List(
   )
 )
 
-ThisBuild / tlCiReleaseBranches := Seq("main")
+ThisBuild / tlCiReleaseBranches := Seq("main", "update/nscplugin-0.5.1")
 
 ThisBuild / crossScalaVersions := Seq(Scala3, Scala212, Scala213)
 val Java8 = JavaSpec.temurin("8")
